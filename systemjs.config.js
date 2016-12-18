@@ -22,7 +22,10 @@
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
             'rxjs': 'npm:rxjs',
-            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+
+            'angularfire2': 'npm:angularfire2/bundles/angularfire2.umd.js',
+            'firebase': 'npm:angularfire2/node_modules/firebase/firebase.js',
         },
         packages: {
             app: {
