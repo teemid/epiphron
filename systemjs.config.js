@@ -10,7 +10,7 @@
         },
         // map tells the System loaded where to look for things
         map: {
-            app: 'js',
+            app: 'build',
 
             '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
             '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
