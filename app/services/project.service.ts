@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import { AngularFire, FirebaseObjectObservable, FirebaseListObservable } from 'angularfire2';
 
+import { firebaseConfig } from '../firebase-config';
+
 import { Project } from '../data-classes/project';
 
 @Injectable()
 export class ProjectService {
-    private firebaseUrl = 'https://firebaseurl.com';
+    private firebaseUrl = firebaseConfig.databaseURL;
 
     constructor(private firebase: AngularFire) { }
 
